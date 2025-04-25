@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To Chomblee — The Keeper of Dreams</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: linear-gradient(135deg, #3b82f6, #9333ea);
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 1rem;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .section {
+      max-width: 850px;
+      margin: 2rem auto;
+      background: #ffffff;
+      color: #1e1e2f;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .section:hover {
+      transform: scale(1.01);
+    }
+
+    .section h2 {
+      color: #3b82f6;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .quote {
+      font-style: italic;
+      color: #6b7280;
+      margin: 1rem 0;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 160px;
+      margin: 0.6rem;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.08);
+    }
+
+    input[type="text"] {
+      padding: 0.6rem;
+      border: 2px solid #9333ea;
+      border-radius: 8px;
+      font-size: 1rem;
+      margin-right: 0.5rem;
+      width: 200px;
+    }
+
+    button {
+      background-color: #9333ea;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #7e22ce;
+    }
+
+    .hidden-section {
+      display: none;
+      margin-top: 1.5rem;
+      background: #f0f9ff;
+      color: #111;
+      padding: 1rem;
+      border-radius: 12px;
+      font-weight: 500;
+    }
+
+    .fun-fact {
+      margin-top: 1.5rem;
+      font-size: 1.1rem;
+      color: #3b82f6;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #e0e7ff;
+      margin: 3rem 1rem;
+    }
+
+    @media (max-width: 600px) {
+      .gallery img {
+        width: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>To Chomblee 🧤</h1>
+    <p>A birthday gift for the future legend between the posts</p>
+  </header>
+
+  <div class="section">
+    <h2>Dear Chomblee,</h2>
+    <p>
+      Happy 12th, king. 👑  
+      You're not just someone I know — you're a light, a heart, and a dreamer.  
+This site? It’s a little reminder that your hopes and dreams aren’t just valid — they’re precious.  
+Keep being you, keep dreaming big, and never stop sharing your shine with the world.
+
+    </p>
+    <p class="quote">"Being a goalkeeper is not about saving goals. It's about becoming unforgettable."</p>
+  </div>
+
+  <div class="section">
+    <h2>Legend Gallery</h2>
+    <div class="gallery">
+      <img src="pic1.png" alt="Neuer">
+      <img src="pic2.png" alt="Alisson">
+      <img src="pic3.png" alt="Buffon">
+      <img src="pic4.png" alt="Casillas">
+    </div>
+    <p class="quote">You're next. 📸</p>
+  </div>
+
+  <div class="section">
+    <h2>Secret Message 🔐</h2>
+    <p>Type the secret word to unlock a hidden message made just for you.</p>
+    <input type="text" id="secretInput" placeholder="Think wisely..">
+    <button onclick="checkCode()">Unlock</button>
+    <div class="hidden-section" id="secretMessage">
+      🎉 BOOM!  
+      You found it. This right here is proof that you’re meant for great things.
+      I'm always here by your side, through thick and thin, even when you think I'm not.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>From Omar, with Heart 💌</h2>
+    <div style="background:#f0f9ff; color:#111827; padding:1.5rem; border-radius:16px; line-height:1.8; font-size:1.05rem;">
+      <p style="font-style:italic; color:#4f46e5;">
+        A wise poet once wrote:<br>
+        To care for a friend is what I like to do<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Make them feel happy and laugh till we're blue<br>
+        I will be with my friends all the way through<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Until I'm about 102
+      </p>
+  
+      <p><strong>Chomblee, Dear Friend</strong><br>
+      I hope you are doing wonderful on this fine evening.<br>
+      I've had a bit of a shock when I heard your birthday passed by 10 days...<br>
+      You're 12 now! You've grown so fast...<br><br>
+  
+      Since the first days that I met you, I've always cherished you in my heart, and given you my most valuable secrets and memories.<br>
+      I truly wish you a happy and fun time not just for today, but for the days that follow suit.<br><br>
+  
+      I will not be by your side soon, but I can always assure myself that you are a piece of me that will never fail in his goals, ambitions, and life-challenges.<br><br>
+  
+      As I said before, if I had 100 more lives, I would choose to be myself not because of my success or journey, but to have such a dear friendship with you.<br><br>
+  
+      That said, I wish you the very best life you could have, and I wish that God always stays by your side through thick and thin.<br><br>
+  
+      Yours Truly,<br>
+      <strong>Omar</strong></p>
+    </div>
+  </div>
+  
+
+  <footer>
+    Built with 💜 for Chomblee — April 2025
+  </footer>
+
+  <script>
+    function checkCode() {
+      const input = document.getElementById("secretInput").value.toLowerCase();
+      const msg = document.getElementById("secretMessage");
+      if (input === "goal") {
+        msg.style.display = "block";
+      } else {
+        alert("Wrong word, champ. Try again 👀");
+      }
+    }
+
+  </script>
+
+</body>
+</html>
